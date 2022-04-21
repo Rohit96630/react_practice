@@ -1,0 +1,58 @@
+	 setup project in react
+	 
+	npm install -g create-react-app
+	npx create-react-app project1
+	
+	open cmd in any folder as reactjs
+		 run above commands in cmd 1 by 1
+		 
+		 =>After finishing of both commands
+			change directory => cd project1
+			compile and start react sercer => npm start
+			After compilling
+			Run in browser
+				=> http://localhost:3000
+--------------------------------------------------------
+	Jsx - javascript  & xml
+	jsx = html + jabascript + xml rules
+-------------------------------------------------
+	what is structure of xml files
+		example
+			=> user.xml
+		=>Every xml file can have only 1 parent elemnet
+		=>xml tags are case sensitive
+		=>xml tags are user defined
+----------------------------------------------------\
+	React JSX Rules(5)
+		1. in inside a component more than a jax element is required then the parent
+			element is mandatory
+		Example :
+				  <div>
+					<h1> welcome  </h1>
+					<p> it is from p tag</p>
+				</div>
+				
+		2. in inside a component more than a jax element is required then the parent
+			element can be user defined also
+		Example :
+				  <abc>
+					<h1> welcome  </h1>
+					<p> it is from p tag</p>
+				</abc>
+				
+		3. in inside a component more than a jax element is required then the parent
+			element can be empty <></> tag also
+		Example :
+				  <> 
+					<h1> welcome  </h1>
+					<p> it is from p tag</p>
+				</>
+		4. in inside a component more than a jax element is required then the parent
+			element can be empty [] also
+		Example :
+				  [
+					<h1> welcome  </h1>
+					<p> it is from p tag</p>
+				]
+		
+

@@ -1,0 +1,28 @@
+	{
+		"itemlist":[
+			{
+				"id":1,
+				"name":"Apple",
+				"price":"Rs. 300",
+				"qty":10,
+				"photo":"1.jpg",
+				"details":"Good For Health"
+			},
+			{
+				"id":2,
+				"name":"Mango",
+				"price":"Rs. 100",
+				"qty":20,
+				"photo":"2.jpg",
+				"details":"imported mango"
+			},
+			{
+				"id":3,
+				"name":"Orange",
+				"price":"Rs. 80",
+				"qty":80,
+				"photo":"3.jpg",
+				"details":"Orange from MP"
+			}
+		]
+	}

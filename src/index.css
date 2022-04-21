@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  padding:18px;
+  background-color: darkgreen;
+  margin:0px;
+  color:white;
+}
+
+ul li{
+  display:inline;
+  padding:10px 4px 10px;
+}
+
+.menu{
+  text-decoration:none;
+  color:orange
+}
+
+.menu:hover{
+  color:red;
+  cursor: pointer;
+}
+
+#height500{
+  min-height:500px;
+  padding:10px 10% 10px;
+}
+
+footer{
+  padding:20px;
+  background-color: blueviolet;
+  color:white;
+  text-align:center;
+  height:120px;
+  font-weight:bold;
+}
+
+.service{
+  margin:2%;
+  width:26%;
+  float:left;
+  border:1px solid red;
+  min-height:270px;
+}
+
+.company{
+  width:23%;
+  margin:1%;
+  float:left;
+  text-align:center;
+  padding:5px 0px 5px;
+  box-shadow: 0px 0px 5px blue;
+  margin-bottom:20px;
+}
+
+button{
+  margin:10px;
+  padding:6px 20px 6px;
+  color:blue;
+  font-weight:bold;
+}
+
+.smallinput{
+  height:30px;
+  margin:5px;
+  padding:0px 10px 0px;
+}
+
+#clearblock{
+  clear:both;
+}
+
+.abc{ margin:10px; }
